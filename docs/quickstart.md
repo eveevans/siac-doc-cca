@@ -5,7 +5,7 @@ permalink: /docs/quickstart/
 ---
 
 Los usuarios de los estudiantes y padres de familia conforman la mayoría de los usuarios del sistema. 
-Para estos usuarios, luego de [iniciar sesión](/docs/login/) se mostrará en el área de contenido de la la [pantalla de inicio](/docs/login/#inicio) 
+Para estos usuarios, luego de [iniciar sesión](/docs/login/) se mostrará en el área de contenido de la la [pantalla de inicio](/docs/login/#pantalla_de_inicio) 
 una pestaña en la que se muestran los estudiantes a los que el usuario tiene acceso:
 
 ![estudiante](/img/docs/estudiante_snippet.png)
@@ -18,7 +18,7 @@ A como se muestra en la imagen, aparece un resumen del estudiante, su foto y un 
     podrá acceder al expediente de estudiante.</p>
 </div>
 
-## <a name="expediente"></a>Expediente del Estudiante
+## Expediente del Estudiante
 
 En el expediente del estudiante se muestra toda su información, la cual para mayor facilidad se encuentra organizada en diversas pestañas, 
 tal y como se muestra a continuación:
@@ -40,7 +40,7 @@ En la parte inferior se puede acceder a un registro de cambios en el que se pued
 
 Información académica del estudiante, la cual es diferente para cada periodo lectivo (periodo lectivo, nivel, grado, sección, docente guía, etc.).
 
-Al lado de la información del docente aparece un enlace **(1)** para enviar un mensaje privado al docente en cuestión.
+Al lado de la información del docente aparece un enlace **(1)** para [enviar un mensaje privado](/docs/mensajes/#creacin_de_mensaje) al docente en cuestión.
 
 Cabe mencionar que las pestañas de *Materias*, *Horarios*, *Médico* e *Incidencias* dependen de la información académica que se tenga seleccionada. Por esta razón,
 en la parte inferior de esta pestaña se muestran enlaces **(2)** para visualizar el expediente y calificaciones del estudiante en dicho periodo lectivo.
@@ -49,8 +49,8 @@ en la parte inferior de esta pestaña se muestran enlaces **(2)** para visualiza
 
 ![materias](/img/docs/estudiante_materias.png)
 
-En esta pestaña se muestra un listado de las materias que se encuentra cursando el estudiante, el docente que la imparte (con un enlace **(1)** para enviar un mensaje),
-la calificación parcial y un enlace **(2)** para visualizar el detalle de la calificación:
+En esta pestaña se muestra un listado de las materias que se encuentra cursando el estudiante, el docente que la imparte (con un enlace **(1)** para 
+[enviar un mensaje](/docs/mensajes/#creacin_de_mensaje)), la calificación parcial y un enlace **(2)** para visualizar el detalle de la calificación:
 
 ![calificacion](/img/docs/estudiante_calificacion.png)
 

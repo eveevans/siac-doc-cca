@@ -35,7 +35,7 @@ Si no recuerda su contraseña, podrá solicitarla a través del formulario de in
 - Dar clic en el enlace que será enviado a su correo electrónico, lo cual le desplegará un formulario de cambio de contraseña
 - Escribir la nueva contraseña que desea utilizar y enviar el formulario
 
-## <a name="inicio"></a>Pantalla de inicio
+## Pantalla de inicio
 
 ![inicio](/img/docs/inicio.png)
 
