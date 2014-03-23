@@ -30,6 +30,7 @@ La primera vez que inicie sesión se le solicitará que cambie el usuario y la c
 ## Olvido de contraseña
 
 Si no recuerda su contraseña, podrá solicitarla a través del formulario de inicio de sesión, siempre y cuando haya configurado una dirección de correo electrónico en su perfil. Para esto deberá:
+
 - Dar clic en la opción *¿Olvidó su contraseña?*
 - Ingresar su correo electrónico y enviar el formulario. Se le enviará un email con las instrucciones para cambiar su contraseña
 - Dar clic en el enlace que será enviado a su correo electrónico, lo cual le desplegará un formulario de cambio de contraseña
