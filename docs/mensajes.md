@@ -29,7 +29,7 @@ incluye la opción *Responder* **(1)**, lo cual abre el formulario de creación 
 el asunto y contenido del mensaje actual; por otra parte, la opción *Eliminar* remueve al mensaje de la bandeja de entrada (o salida) del usuario, aunque 
 *no elimina físicamente el mensaje de la base de datos del sistema* por razones de auditoría.
 
-## Creación de mensaje
+## Crear mensaje
 
 No existe una opción directa en la bandeja de entrada o salida para crear un nuevo mensaje y enviarlo a cualquier destinatario. 
 Por consiguiente, para enviar un mensaje debe de darse clic en cualquiera de los íconos de envío de mensajes que se encuentran en las diversas pantallas
