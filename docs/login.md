@@ -6,7 +6,7 @@ permalink: /docs/login/
 
 Para ingresar al Sistema Académico deberá acceder a la dirección [siac.cca.edu.ni](http://siac.cca.edu.ni), lo cual le mostrará el formulario de inicio de sesión:
 
-![login](/img/sesiones/login.png)
+![login](/img/docs/login.png)
 
 - Código de estudiante, nombre de usuario o correo electrónico
 - Contraseña
@@ -20,7 +20,7 @@ Para ingresar al Sistema Académico deberá acceder a la dirección [siac.cca.ed
 
 La primera vez que inicie sesión se le solicitará que cambie el usuario y la contraseña:
 
-![cambiar contraseña](/img/sesiones/cambiar_contrasena.png)
+![cambiar contraseña](/img/docs/cambiar_contrasena.png)
 
 - Debe ingresar la contraseña actual
 - Se le recomienda que ingrese una dirección de correo electrónico, ya que le servirá para recuperar la contraseña y recibir notificaciones del sistema
@@ -35,9 +35,9 @@ Si no recuerda su contraseña, podrá solicitarla a través del formulario de in
 - Dar clic en el enlace que será enviado a su correo electrónico, lo cual le desplegará un formulario de cambio de contraseña
 - Escribir la nueva contraseña que desea utilizar y enviar el formulario
 
-## Pantalla de inicio
+## <a name="inicio"></a>Pantalla de inicio
 
-![inicio](/img/sesiones/inicio.png)
+![inicio](/img/docs/inicio.png)
 
 1. **Barra superior**: Contiene las siguientes opciones:
   - *Cambiar modo de pantalla* (esquina superior izquierda): oculta el menú y maximixa el tamaño de la pantalla

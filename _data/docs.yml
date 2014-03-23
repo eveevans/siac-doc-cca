@@ -1,7 +1,5 @@
-- title: Getting Started
+- title: Guía Rápida
   docs:
   - home
-
-- title: Usuarios
-  docs:
   - login
+  - quickstart
