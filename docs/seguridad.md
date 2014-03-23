@@ -85,9 +85,9 @@ de los estudiantes. Para lograr el resultado deseado se deberá asignar objetos 
 Para darle accesos limitados al usuario se le puede asignar un objeto determinado, lo cual le otorgará diversos permisos dependiendo del 
 tipo de objeto que se le asigne:
 
-- **Estudiante**: Permite visualizar el expediente del estudiante.
-- **Pariente**: Permite visualizar los expedientes de los estudiantes de los cuales el pariente es responsable (esto se puede visualizar
-  en el expediente del estudiante en cuestión, en la pestaña *Responsables*). 
+- **Estudiante**: Permite visualizar el expediente del estudiante, siempre y cuando estén solventes.
+- **Pariente**: Permite visualizar los expedientes de los estudiantes solventes de los cuales el pariente es responsable (esto se puede visualizar
+  en el expediente del estudiante en cuestión, en la pestaña *Responsables*).
 - **Docente**: Le otorga varios accesos al docente, dependiendo de la forma en la que esté configurado:
   - Permite visualizar y evaluar todas las materias que el docente imparta.
   - Permite visualizar las secciones (incluyendo expedientes de estudiantes, materias y evaluaciones) de los cuales esté configurado como docente guía.
@@ -109,3 +109,13 @@ del objeto (para *Nivel* o *Clase*) o *Mostrar* **(3)** directamente los detalle
 
 También se cuenta con la opción de *Nuevo* **(4)**, lo cual nos permite [crear un usuario](/docs/usuarios/#crear_usuario) con el objeto asignado, o 
 alternativamente se cuenta con la opción de *Agregar* **(5)** el objeto a un usuario existente.
+
+Se puede agregar cualquier cantidad de objetos a un usuario, lo cual permite una mayor flexibilidad al momento de definir los accesos
+permitidos para el usuario en cuestión.
+
+<div class="note">
+  <h5>Crear usuarios de estudiantes masivamente</h5>
+  <p>Para evitarse el trabajo de crear usuarios para cada uno de los estudiantes del sistema, se puede hacer uso de la opción <i>Importar</i> 
+    del <a href="/docs/periodos_lectivos/#importar">periodo lectivo</a>, lo cual, además de importar las listas de estudiantes del sistema administrativo,
+    procederá a crear nuevos usuarios con el código del estudiante como login y con el estudiante ya asignado al usuario.</p>
+</div>

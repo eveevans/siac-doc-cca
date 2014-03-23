@@ -21,9 +21,16 @@ Las opciones adicionales que comprende esta pantalla son:
 - Por defecto se muestran únicamente los usuarios *habilitados* del sistema, es decir, aquellos que pueden iniciar sesión. Por consiguiente,
   se cuenta con la opción *Mostrar todos* **(4)**, que quita dicha restricción y muestra todos los usuarios del sistema.
 
+<div class="note">
+  <h5>Filtro avanzado</h5>
+  <p>Por opciones de rendimiento, la opción para filtrar únicamente busca coincidencias por el inicio del campo. Sin embargo, este comportamiento
+    se puede modificar si se le antepone un símbolo de porcentaje <b>%</b> al inicio de la cadena. Por ejemplo, la cadena <b>%@</b> nos filtrará
+    todos los usuarios con correo electrónico.</p>
+</div>
+
 <div class="note info">
   <h5>Seguridad</h5>
-  <p>Para acceder a esta pantalla se necesita cualquiera de los siguientes permisos: <i>USUARIO_READ</i> o <i>USUARIO_MANAGE</i>.</p>
+  <p>Para acceder a esta funcionalidad se necesita el permiso <i>USUARIO_READ</i>.</p>
 </div>
 
 ## Crear usuario
@@ -42,6 +49,11 @@ Al dar clic en la opción de crear usuario se despliega el siguiente formulario:
 
 Una vez que se envíe el formulario se creará un usuario en el sistema, y se enviará un correo electrónico al usuario con los detalles de la
 nueva cuenta creada, en caso de que se haya especificado un email válido.
+
+<div class="note info">
+  <h5>Seguridad</h5>
+  <p>Para acceder a esta funcionalidad se necesita el permiso <i>USUARIO_CREATE</i>.</p>
+</div>
 
 ## Detalles del usuario
 
