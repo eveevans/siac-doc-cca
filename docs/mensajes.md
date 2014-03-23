@@ -11,7 +11,7 @@ los mensajes recibidos:
 ![inbox](/img/docs/mensajes_index.png)
 
 En el listado se muestra el remitente del mensaje, el asunto y la fecha y hora en la que fue enviado, así como también un enlace **(1)** para 
-mostrar el contenido del mensaje. Los mensajes no leídos se muestran resaltados, y se muestra su número al lado del ícono de correo.
+mostrar el [contenido del mensaje](#detalles_de_mensaje). Los mensajes no leídos se muestran resaltados, y se muestra su número al lado del ícono de correo.
 Adicionalmente, se cuenta un campo de texto **(2)** que permite filtrar los mensajes por remitente y/o asunto.
 
 También se puede acceder a los mensajes a los que el usuario ha enviado (bandeja de salida) al dar clic en el enlace *Enviados* **(3)**, en cuyo 
