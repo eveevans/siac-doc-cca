@@ -99,7 +99,7 @@ tipo de objeto que se le asigne:
 - **Clase**: Le otorga permisos para una clase determinada (*Primer Grado*, por ejemplo), los cuales, al igual que para un nivel, dependen de los roles que
   se le asignen al objeto.
 
-En la pantalla de visualización del objeto se pueden administrar sus asignaciones de usuarios, siempre que se cuente con el permiso *USUARIO_CREATE* o *USUARIO_ADMIN*,
+En la pantalla de visualización del objeto se pueden administrar sus asignaciones de usuarios, siempre que se cuente con el permiso *USUARIO_CREATE*,
 en cuyo caso se mostrará la pestaña adicional *Usuarios*, a como se ilustra en la siguiente captura:
 
 ![objeto](/img/docs/seguridad_objetos.png)

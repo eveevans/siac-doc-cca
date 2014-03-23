@@ -46,7 +46,7 @@ El formulario está dividido en diferentes secciones:
   de otros colegios) y si el estudiante es repitente.
 - *Datos Médicos*: Información médica del estudiante. Todos los campos de esta sección son opcionales.
 
-Luego de enviar el formulario exitosamente, se podrá acceder al expediente del estudiante.
+Luego de enviar el formulario exitosamente, se podrá acceder al [expediente del estudiante](#expediente_del_estudiante).
 
 <div class="note info">
   <h5>Seguridad</h5>
@@ -274,3 +274,7 @@ el siguiente formulario:
 ![incidencias](/img/docs/estudiantes_show_incidencias_new.png)
 
 Una vez ingresada la incidencia, se podrá [visualizar los detalles del suceso](/docs/incidencias/#detalles_de_la_incidencia).
+
+### Usuarios
+
+Únicamente está disponible si se cuenta con el permiso *USUARIO_READ*. [Las funcionalidades de esta pestaña se describen en la sección de seguridad](/docs/seguridad/#objetos).
