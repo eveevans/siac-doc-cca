@@ -21,7 +21,7 @@ Adicionalmente, el listado cuenta con las siguientes opciones:
   <p>Aunque en el idioma español los términos pueden utilizarse como sinónimos, el sistema hace distinción entre ellos. Por un lado, la <i>asignatura</i>
     es una entidad que depende únicamente del nivel (por ejemplo <i>MATEMÁTICAS del nivel PRIMARIA</i>), mientras que la <i>materia</i> es la forma 
     concreta de la asignatura aplicada a una clase en un periodo lectivo determinado (por ejemplo, <i>MATEMÁTICAS del CUARTO GRADO de PRIMARIA del PERIODO 2014</i>).
-    En consecuencia, las asignaturas deben ingresarse una única vez, mientras que las materias deben definirse nuevamente para cada periodo lectivo.</p>
+    En consecuencia, las asignaturas son tablas estáticas que deben ingresarse una única vez, mientras que las materias deben definirse nuevamente para cada periodo lectivo.</p>
 </div>
 
 <div class="note info">

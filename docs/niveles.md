@@ -50,6 +50,8 @@ estará disponible la pestaña de *Usuarios*, [cuyas funcionalidades se describe
 
 ![detalles](/img/docs/niveles_show.png)
 
+Si se cuenta con el permiso *NIVEL_MANAGE* se tienen las siguientes opciones disponibles:
+
 - Se puede *Editar* **(1)** el nivel, lo cual nos despliega el formulario de modificación con los mismos campos que el 
   [formulario de creación](#crear_nivel).
 - Se puede *Eliminar* **(2)** el nivel siempre y cuando no tenga ninguna clase ni asignatura asignada.
