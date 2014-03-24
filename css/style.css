@@ -203,6 +203,19 @@ body > footer a:hover img {
   }
 }
 
+.intro a{
+  color: #ccc;
+}
+
+.intro a:hover {
+  color:#fafafa;
+}
+
+article img { 
+  max-width: 100%;
+  border: 1px solid #ddd;
+ }
+
 /* Quickstart */
 
 .quickstart {
@@ -647,6 +660,10 @@ pre, code {
     0 -1px 0 rgba(0,0,0,.5);*/
 }
 
+.note ul {
+  color: #fff;
+}
+
 .note code {
   background-color: rgba(0,0,0,0.2);
   margin-left: 2.5px;
@@ -704,9 +721,24 @@ article h6 {
   margin: 1em 0;
 }
 
-article h4 {
-  color: #fff;
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
 }
+
+article h4 {
+  /*color: #fff;*/
+}
+
+.note h2, .note h3, .note h4 , .note h5, .note h6{
+  border: none;
+}
+
 
 h5, h6 {
   font-size: 1em;
