@@ -65,31 +65,41 @@ Si un único docente imparte la asignatura para todas las secciones de la clase,
 Existen diversas opciones de configuración para modificar el comportamiento de las materias:
 
 - **Nota mínima**: Nota mínima considerada como *aprobada* para la materia.
+
   - Si la calificación de una evaluación es inferior a este valor, entonces se resaltará en color rojo en todos los reportes del sistema.
   - Si el valor de la evaluación es menor al 100 %, entonces este valor es ponderado (por ejemplo, si la evaluación vale 10 puntos y el 
     valor de la nota mínima es 60, entonces cualquier valor menor a 10).
+
 - **Tipo materia**: Controla los [tipos de evaluaciones que se pueden crear](/docs/evaluaciones/#crear_evaluacin) para esta materia:
+
   - *Solo acumulado*: Únicamente se pueden crear evaluaciones acumulativas.
   - *Acumulado y examen*: Se pueden crear tanto evaluaciones acumulativas como un examen.
   - *Solo examen*: Únicamente se puede crear una evaluación de tipo examen por bloque.
-- **Porcentaje examen**: Únicamente se toma en consideración si el tipo de materia es *Acumulado y examen*, y corresponde al porcentaje que
-  tendrá el examen sobre la calificación del bloque.
+
+- **Porcentaje examen**: Únicamente se toma en consideración si el tipo de materia es *Acumulado y examen*, y corresponde al porcentaje que 
+tendrá el examen sobre la calificación del bloque.
+
   - Si el valor es mayor a 0, entonces la materia *debe* contener una evaluación tipo examen (el cual tendrá este porcentaje independientemente del valor
     que se introduzca al momento de crear la evaluación) para que la calificación del bloque pueda consolidarse.
     Adicionalmente, se restringirán las evaluaciones acumulativas para que no sobrepasen el porcentaje restante. En consecuencia, un valor de 100 en este
     campo es funcionalmente equivalente a una materia de tipo *Solo examen*.
-  - Si el valor es 0, entonces el docente podrá calificar la materia de la forma que estime conveniente: podrá crear únicamente evaluaciones acumulativas, 
-    crear un examen y asignarle el porcentaje que desee y el resto de acumulado, o incluso ingresar un único examen con un peso del 100 % de la nota
-    del bloque si así lo desea.
+  - Si el valor es 0, entonces el porcentaje es variable y el docente podrá calificar la materia de la forma que estime conveniente: podrá crear 
+    únicamente evaluaciones acumulativas,  crear un examen y asignarle el porcentaje que desee y el resto de acumulado, o incluso ingresar un único examen 
+    con un peso del 100 % de la nota del bloque si así lo desea.
+
 - **Exámenes reparación**: Número máximo de exámenes de reparación permitidos para los estudiantes reprobados. Un número de 0 deshabilita
   los exámenes de reparación para la materia.
+
 - **Escala literal**: Utilizar una [escala literal](/docs/escalas/) para la materia, de tal forma que las calificaciones se visualizarán
   como letras en todos los reportes del sistema para esta materia, así como también las [evaluaciones deberán ser calificadas](/docs/evaluaciones/#calificar_evaluacin)
   con sus correspondientes valores literales.
+
 - **Excluir promedio**: Si se activa el check en este campo, la materia se excluirá del cálculo del promedio del estudiante. Se recomienda que
   se active esta opción si se selecciona una *escala literal* para la materia, a menos que todas las materias de la clase se califiquen de forma literal.
+
 - **Excluir reprobadas**: Si se activa el check en este campo, la materia no se tomará en cuenta para el cálculo de asignaturas reprobadas en el
   [reporte de estadísticas de bloque](/docs/reportes/#estadsticas_de_bloque).
+
 - **Periodo inicio** y **Periodo fin**: Para las materias cuya duración no abarca la totalidad del periodo lectivo, debe indicarse el bloque inicial
   y el bloque final que se evalúan, de tal forma que al consolidar el bloque final se calculará la nota final de la materia. De esta forma, para las
   materias semestrales debe introducirse una duración del periodo 1 al 2 para el primer semestre, y del 3 al 4 para el segundo semestre.
