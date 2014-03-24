@@ -54,7 +54,7 @@ mostrar los promedios globales de los estudiantes, puestos que estos no están l
 
 ## Detalles del Periodo Lectivo
 
-Se muestran los detalles del periodo lectivo en dos pestañas: una para la información *General* y en la que listan las configuraciones:
+Se muestran los detalles del periodo lectivo en dos pestañas: una para la información *General* y en la que listan las *Configuraciones*:
 
 ![detalles](/img/docs/periodo_lectivos_show.png)
 

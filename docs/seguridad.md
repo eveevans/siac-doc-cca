@@ -70,7 +70,7 @@ En consecuencia, para cada funcionalidad que se explique en la presente guía se
 
 <div class="note">
   <h5>Permisos Administrativos</h5>
-  <p>Los permisos administrativos son los que terminan en <i>_ADMIN</i> y otorgan el acceso más elevado sobre la funcionalidad en cuestión.
+  <p>Los permisos administrativos son los que terminan en <i>_MANAGE</i> y otorgan el acceso más elevado sobre la funcionalidad en cuestión.
     Por ejemplo, si se otorga el permiso <i>USUARIO_MANAGE</i> ya no es necesario otorgarle <i>USUARIO_READ</i> o <i>USUARIO_CREATE</i>, 
     puesto que ya se encuentran incluidos en el primero.</p>
 </div>
