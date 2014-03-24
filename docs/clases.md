@@ -54,7 +54,7 @@ Las opciones de esta pantalla son las siguientes:
 
 - Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** a toda la clase. En el destinatario se podrá seleccionar si se quiere
   enviar a los estudiantes y padres de familia, a los docentes o a ambos.
-- Opción para *Editar* los detalles de la case **(2)**, si se cuenta con el permiso *CLASE_MANAGE* y el periodo lectivo está abierto, 
+- Opción para *Editar* los detalles de la clase **(2)**, si se cuenta con el permiso *CLASE_MANAGE* y el periodo lectivo está abierto, 
   lo cual desplegará el formulario de actualización de la clase con los mismos campos del [formulario de creación](#crear_clase).
 - Opción para *Eliminar* la clase **(3)**, si se cuenta con el permiso *CLASE_MANAGE*, el periodo lectivo está abierto y la clase no tiene
   ningún estudiante asignado.
@@ -63,7 +63,7 @@ Por su parte, los detalles de la clase se visualizan en las siguientes pestañas
 
 ### General
 
-Información general de la clase (periodo lectivo, clase, grado e información básica de auditoría).
+Información general de la clase (periodo lectivo, nivel, grado e información básica de auditoría).
 
 ### Materias
 
