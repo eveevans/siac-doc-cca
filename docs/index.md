@@ -1,7 +1,6 @@
 ---
 layout: docs
-title: Welcome
-next_section: quickstart
+title: Bienvenido
 permalink: /docs/home/
 ---
 

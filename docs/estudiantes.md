@@ -191,7 +191,7 @@ En esta pestaña se muestra un listado de las materias que cursa el estudiante p
 - Se puede [visualizar la materia](/docs/materias/#detalles_de_la_materia) **(1)** si se cuenta con el permiso *MATERIA_READ*.
 - Se puede [visualizar el docente](/docs/docentes/#expediente_del_docente) **(2)** que imparte la materia si se cuenta con el permiso *DOCENTE_READ*. Adicionalmente,
   se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
-- Se pueden visualizar todas evaluaciones, exámenes y consolidados de la materia, con sus respectivas descripciones y observaciones, al darle clic a la opción
+- Se pueden visualizar todas las evaluaciones, exámenes y consolidados de la materia, con sus respectivas descripciones y observaciones, al darle clic a la opción
   *Detalle* **(3)**:
 
 ![calificacion](/img/docs/estudiante_calificacion.png)
@@ -202,18 +202,18 @@ la cual se muestra de la siguiente manera:
 ![calificacion](/img/docs/estudiante_calificaciones.png)
 
 La hoja de calificaciones contiene en forma tabular todas las calificaciones del estudiante para todas las materias que se encuentra cursando. Esta información se 
-encuentra organizada en los diferentes bloques evaluativos o bimestres que conforman el periodo lectivo
+encuentra organizada en los diferentes bloques evaluativos o bimestres que conforman el periodo lectivo.
 
 <div class="note">
   <h5>Opciones de visualización de la hoja de calificaciones</h5>
   <ul>
     <li>Las evaluaciones se encuentran ocultas por defecto y solo se muestra la columna del <i>Total Acumulado</i>. Para desplegarlas, dar clic en la cabecera del
-      bloque evaluativo <b>(3)</b></li>
+      bloque evaluativo <b>(3)</b>.</li>
     <li>Puesto que el área de la pantalla se encuentra reducida por el menú y estilo del sistema, se recomienda maximizar el área de contenido dando clic en el 
       ícono <i>Cambiar modo de pantalla</i> localizado en la esquina superior izquierda de la pantalla. Adicionalmente, el reporte cuenta con una barra de desplazamiento
-      horizontal en la parte inferior de la pantalla <b>(5)</b> para facilitar su visualización</li>
+      horizontal en la parte inferior de la pantalla <b>(5)</b> para facilitar su visualización.</li>
     <li>Al situar el cursor encima de cualquier evaluación o examen se visualizará una burbuja mostrando el porcentaje de la evaluación en el total de la calificación.
-      Si la calificación se encuentra subrayada <b>(4)</b>, se le mostrarán adicionalmente los comentarios del docente</li>
+      Si la calificación se encuentra subrayada <b>(4)</b>, se le mostrarán adicionalmente los comentarios del docente.</li>
   </ul>
 </div>
 
