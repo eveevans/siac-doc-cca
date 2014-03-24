@@ -16,7 +16,7 @@ Adicionalmente, el listado cuenta con las siguientes opciones:
 - Un campo de texto **(4)** para filtrar los docentes por nombre y/o apellidos.
 - Si se cuenta con el permiso *DOCENTE_CREATE*, se desbloquea la opción *Nuevo Docente* **(1)** para [ingresar un docente](#crear_docente) en el sistema.
 - Si se cuenta con el permiso *DOCENTE_MANAGE*, se desbloquea la opción *Exportar*, lo cual exporta toda la información de los docentes activos en un archivo
-  comprimido. El archivo comprimido contiene un las fotos de los docentes y archivo de excel con la información general de sus expedientes.
+  comprimido. El archivo comprimido contiene un las fotos de los docentes y una hoja de cálculo de Excel con la información general de sus expedientes.
 
 <div class="note info">
   <h5>Seguridad</h5>
@@ -25,7 +25,7 @@ Adicionalmente, el listado cuenta con las siguientes opciones:
 
 ## Crear Docente
 
-Al dar clic en la opción de crear estudiante se despliega el siguiente formulario:
+Al dar clic en la opción de crear docente se despliega el siguiente formulario:
 
 ![nuevo](/img/docs/docentes_new.png)
 

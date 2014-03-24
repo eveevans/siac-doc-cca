@@ -204,7 +204,7 @@ la cual se muestra de la siguiente manera:
 La hoja de calificaciones contiene en forma tabular todas las calificaciones del estudiante para todas las materias que se encuentra cursando. Esta información se 
 encuentra organizada en los diferentes bloques evaluativos o bimestres que conforman el periodo lectivo
 
-<div class="note info">
+<div class="note">
   <h5>Opciones de visualización de la hoja de calificaciones</h5>
   <ul>
     <li>Las evaluaciones se encuentran ocultas por defecto y solo se muestra la columna del <i>Total Acumulado</i>. Para desplegarlas, dar clic en la cabecera del
@@ -217,7 +217,7 @@ encuentra organizada en los diferentes bloques evaluativos o bimestres que confo
   </ul>
 </div>
 
-Alternativamente, se puede exportar la información de este reporte en formato Excel de dos formas diferentes:
+Alternativamente, se puede exportar la información de este reporte como una hoja de cálculo de Excel de dos formas diferentes:
 
 - Si únicamente interesan los bloques consolidados, se puede utilizar la opción *Exportar todo* **(1)**, lo cual exporta las notas bimestrales, semestrales y finales
   y los despliega como un boletín de calificaciones
