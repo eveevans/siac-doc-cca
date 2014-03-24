@@ -660,10 +660,6 @@ pre, code {
     0 -1px 0 rgba(0,0,0,.5);*/
 }
 
-.note ul {
-  color: #fff;
-}
-
 .note code {
   background-color: rgba(0,0,0,0.2);
   margin-left: 2.5px;
@@ -912,6 +908,12 @@ code.option, code.flag, code.filter, code.output {
 }
 
 .note p {
+  font-weight: 400;
+  font-size: .75em;
+}
+
+.note ul {
+  color: #fff;
   font-weight: 400;
   font-size: .75em;
 }

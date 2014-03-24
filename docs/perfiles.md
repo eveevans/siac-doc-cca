@@ -19,7 +19,7 @@ Adicionalmente, se cuenta con la opción de [crear un nuevo perfil](#crear_perfi
   <p>Se necesita el permiso <i>PERFIL_MANAGE</i> en el perfil del usuario para acceder a todas las opciones de perfiles de usuario.</p>
 </div>
 
-## Crear perfil
+## Crear Perfil
 
 Al dar clic en la opción de crear perfil se despliega un formulario en el que se debe ingresar el nombre y descripción del perfil, y seleccionar
 todos los permisos globales del perfil:

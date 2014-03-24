@@ -31,7 +31,7 @@ Adicionalmente, el listado cuenta con las siguientes opciones:
   </ul>
 </div>
 
-## Crear estudiante
+## Crear Estudiante
 
 Al dar clic en la opción de crear estudiante se despliega el siguiente formulario:
 
@@ -53,7 +53,7 @@ Luego de enviar el formulario exitosamente, se podrá acceder al [expediente del
   <p>Para acceder a esta funcionalidad se necesita el permiso <i>ESTUDIANTE_CREATE</i>.</p>
 </div>
 
-## Importar estudiante
+## Importar Estudiante
 
 Alternativamente, si el estudiante ya se ha ingresado en el sistema administrativo y ya cuenta con un código de estudiante, entonces se puede
 importar dicha información utilizando esta funcionalidad:
@@ -97,7 +97,7 @@ En el caso de los pares de familia y responsables, se da la opción de ingresar 
   <p>Para acceder a esta funcionalidad se necesita el permiso <i>ESTUDIANTE_CREATE</i>.</p>
 </div>
 
-## Importar fotos
+## Importar Fotos
 
 Se puede utilizar esta opción para actualizar de forma masiva las fotos de los estudiantes del sistema:
 
@@ -127,7 +127,7 @@ siempre que se respete la proporción de 3 de ancho por 4 de alto. En caso contr
   <p>Para acceder a esta funcionalidad se necesita el permiso <i>ESTUDIANTE_MANAGE</i>.</p>
 </div>
 
-## Expediente del estudiante
+## Expediente del Estudiante
 
 ![detalles](/img/docs/estudiantes_show.png)
 

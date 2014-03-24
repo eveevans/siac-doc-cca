@@ -39,6 +39,8 @@ expediente del estudiante y darle clic a la opción de enviar mensaje, lo cual d
 ![crear](/img/docs/mensajes_new.png)
 
 Como se puede ver, únicamente es necesario ingresar el asunto y contenido del mensaje, puesto que el destinatario se detecta automáticamente.
+En el caso de los mensajes a grupos (clase o sección por ejemplo), se permitirá seleccionar si se quiere enviar el mensaje únicamente a los
+estudiantes y padres de familia, a los docentes o a todos.
 
 Una vez que se envía el formulario se crea un nuevo mensaje, por lo cual se puede visualizar en nuestra bandeja de salida, así como también
 en la bandeja de entrada del destinatario. De igual forma, se le enviará un email el correo electrónico del destinatario notificándole que 

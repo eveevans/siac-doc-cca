@@ -33,7 +33,7 @@ Las opciones adicionales que comprende esta pantalla son:
   <p>Para acceder a esta funcionalidad se necesita el permiso <i>USUARIO_READ</i>.</p>
 </div>
 
-## Crear usuario
+## Crear Usuario
 
 Al dar clic en la opción de crear usuario se despliega el siguiente formulario:
 
