@@ -1,0 +1,7 @@
+.doc-contents, .section-nav, footer {
+  display: none;
+}
+
+.docs-main {
+  width: 100% !important;
+}
