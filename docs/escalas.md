@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Escalas
+prev_section: evaluaciones
+next_section: periodo_lectivos
 permalink: /docs/escalas/
 ---
 

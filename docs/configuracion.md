@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Configuración
+prev_section: catalogos
 permalink: /docs/configuracion/
 ---
 

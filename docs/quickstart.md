@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Estudiantes
+prev_section: login
+next_section: mensajes
 permalink: /docs/quickstart/
 ---
 
@@ -82,7 +84,7 @@ Alternativamente, se puede exportar la información de este reporte en formato E
 
 - Si únicamente interesan los bloques consolidados, se puede utilizar la opción *Exportar todo* **(1)**, lo cual exporta las notas bimestrales, semestrales y finales
   y los despliega como un boletín de calificaciones
-- Si se quiere visualizar el detalle de las evaluaciones, la opción **Exportar BLOQUE** **(2)** resulta más adecuada, puesto que exporta todas las calificaciones
+- Si se quiere visualizar el detalle de las evaluaciones, la opción *Exportar BLOQUE* **(2)** resulta más adecuada, puesto que exporta todas las calificaciones
   del bloque evaluativo que se seleccione, incluyendo los detalles de las evaluaciones y comentarios del docente
 
 ### Horario

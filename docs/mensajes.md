@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Mensajes
+prev_section: quickstart
+next_section: perfiles
 permalink: /docs/mensajes/
 ---
 

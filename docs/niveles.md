@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Niveles
+prev_section: tipo_notas
+next_section: catalogos
 permalink: /docs/niveles/
 ---
 

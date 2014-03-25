@@ -1,11 +1,13 @@
 ---
 layout: docs
 title: Parientes
+prev_section: docentes
+next_section: clases
 permalink: /docs/parientes/
 ---
 
-Al ingresar en la opción *Parientes* en el menú se desplegará un listado de los parientes (padres de familia y responsables) del sistema con la opción para ingresar al 
-[expediente del pariente](#expediente_del_pariente):
+Al ingresar en la opción *Parientes* en el menú se desplegará un listado de los parientes (padres de familia y responsables) del sistema con la opción para ingresar a los 
+[detalles del pariente](#detalles_del_pariente):
 
 ![listado](/img/docs/parientes_index.png)
 
@@ -26,14 +28,14 @@ Al dar clic en la opción de crear pariente se despliega el siguiente formulario
 ![nuevo](/img/docs/parientes_new.png)
 
 En dicho formulario es necesario llenar la información general y de contacto del pariente. Luego de enviar el formulario exitosamente, 
-se podrá acceder al [expediente del pariente](#expediente_del_pariente).
+se podrá acceder a los [detalles del pariente](#detalles_del_pariente).
 
 <div class="note info">
   <h5>Seguridad</h5>
   <p>Para acceder a esta funcionalidad se necesita el permiso <i>PARIENTE_CREATE</i>.</p>
 </div>
 
-## Expediente del Pariente
+## Detalles del Pariente
 
 ![detalles](/img/docs/parientes_show.png)
 
@@ -46,7 +48,7 @@ Las opciones de esta pantalla son las siguientes:
   Esta opción no resulta muy útil puesto que el pariente ya se elimina desde la [pestaña de padres y responsables](/docs/estudiantes/#padres_y_responsables) del 
   estudiante.
 
-Por su parte, los detalles del expediente del pariente se visualizan en las siguientes pestañas:
+Por su parte, los detalles del detalles del pariente se visualizan en las siguientes pestañas:
 
 ### General
 

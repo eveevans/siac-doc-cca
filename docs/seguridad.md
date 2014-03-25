@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Seguridad
+prev_section: usuarios
+next_section: estudiantes
 permalink: /docs/seguridad/
 ---
 
@@ -116,6 +118,6 @@ permitidos para el usuario en cuestión.
 <div class="note">
   <h5>Crear usuarios de estudiantes masivamente</h5>
   <p>Para evitarse el trabajo de crear usuarios para cada uno de los estudiantes del sistema, se puede hacer uso de la opción <i>Importar</i> 
-    del <a href="/docs/periodos_lectivos/#importar">periodo lectivo</a>, lo cual, además de importar las listas de estudiantes del sistema administrativo,
+    del <a href="/docs/periodo_lectivos/#importar">periodo lectivo</a>, lo cual, además de importar las listas de estudiantes del sistema administrativo,
     procederá a crear nuevos usuarios con el código del estudiante como login y con el estudiante ya asignado al usuario.</p>
 </div>

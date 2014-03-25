@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Evaluaciones
+prev_section: materias
+next_section: escalas
 permalink: /docs/evaluaciones/
 ---
 

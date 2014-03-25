@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Usuarios
+prev_section: perfiles
+next_section: seguridad
 permalink: /docs/usuarios/
 ---
 

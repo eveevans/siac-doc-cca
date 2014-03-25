@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Bienvenido
+next_section: login
 permalink: /docs/home/
 ---
 

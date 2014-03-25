@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Materias
+prev_section: secciones
+next_section: evaluaciones
 permalink: /docs/materias/
 ---
 

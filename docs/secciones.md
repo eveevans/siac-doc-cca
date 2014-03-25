@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Secciones
+prev_section: clases
+next_section: materias
 permalink: /docs/secciones/
 ---
 

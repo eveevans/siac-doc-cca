@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Estudiantes
+prev_section: seguridad
+next_section: docentes
 permalink: /docs/estudiantes/
 ---
 
@@ -78,16 +80,19 @@ En el caso de los pares de familia y responsables, se da la opción de ingresar 
     <li>La información a importar es únicamente la del último periodo lectivo ingresado en el sistema administrativo. Por consiguiente, si en el sistema 
       administrativo ya están ingresadas las listas del próximo ciclo, no será posible importar la información de nuevos estudiantes del ciclo actual, incluso
       cuando este no haya terminado.</li>
-    <li>El <i>ciclo</i> del sistema administrativo debe coincidir con el <i>nombre corto</i> del periodo lectivo actual, y este debe estar abierto.</li>
-    <li>El <i>nivel</i> del sistema administrativo debe coincidir con el <i>nombre corto</i> del nivel en el sistema.</li>
-    <li>El <i>grado</i> del sistema administrativo debe estar ingresado como una <i>clase</i> en el sistema para el nivel especificado.</li>
-    <li>La <i>sección</i> del sistema administrativo debe estar ingresada en el sistema para la clase especificada.</li>
+    <li>El <i>ciclo</i> del sistema administrativo debe coincidir con el campo <i>nombre corto</i> del 
+      <a href="/docs/periodo_lectivos/#crear_periodo_lectivo">periodo lectivo</a> actual, y este debe estar abierto.</li>
+    <li>El <i>nivel</i> del sistema administrativo debe coincidir con el campo <i>nombre corto</i> del <a href="/docs/niveles/#crear_nivel">nivel</a> en el sistema.</li>
+    <li>El <i>grado</i> del sistema administrativo debe coincidir estar ingresado como una <a href="/docs/clases/#crear_clase">clase</a> en el sistema 
+      (específicamente, debe coincidir con el campo <i>grado</i>) para el nivel especificado.</li>
+    <li>La <i>sección</i> del sistema administrativo debe estar ingresada en el sistema como una <a href="/docs/secciones/#crear_seccion">sección</a> en el sistema
+      (específicamente, debe coincidir con el campo <i>nombre</i>) para la clase especificada.</li>
   </ul>
 </div>
 
 <div class="note">
   <h5>Importar estudiantes masivamente</h5>
-  <p>Se puede hacer uso de la opción <i>Importar</i> del <a href="/docs/periodos_lectivos/#importar">periodo lectivo</a>, lo cual, además de importar las 
+  <p>Se puede hacer uso de la opción <i>Importar</i> del <a href="/docs/periodo_lectivos/#importar">periodo lectivo</a>, lo cual, además de importar las 
     listas de estudiantes del sistema administrativo, procederá a crear nuevos usuarios con el código del estudiante como login y con el estudiante ya 
     asignado al usuario.</p>
 </div>
@@ -153,7 +158,7 @@ información a lo largo del tiempo:
 
 Para las acciones de modificación se puede visualizar los detalles del expediente del estudiante antes de efectuarse la modificación:
 
-![historial](/img/docs/estudiante_show_version.png)
+![historial](/img/docs/estudiantes_show_version.png)
 
 - La opción *Restaurar* **(1)** se puede utilizar para revertir la información del estudiante, lo cual puede ser útil para revertir errores
   al modificar el expediente. Para esto se necesita el permiso *ESTUDIANTE_UPDATE*.
@@ -167,7 +172,7 @@ Información académica del estudiante, la cual es diferente para cada periodo l
 ![academico](/img/docs/estudiantes_show_academico.png)
 
 - Se puede [visualizar la clase](/docs/clases/#detalles_de_la_clase) **(1)** del estudiante si se cuenta con el permiso *CLASE_READ*.
-- Se puede [visualizar la sección](/docs/secciones/#detalles_de_la_seccion) **(2)** del estudiante si se cuenta con el permiso *SECCION_READ*. Adicionalmente, 
+- Se puede [visualizar la sección](/docs/secciones/#detalles_de_la_seccin) **(2)** del estudiante si se cuenta con el permiso *SECCION_READ*. Adicionalmente, 
   si se cuenta con el permiso *ESTUDIANTE_CLASE_MANAGE*, se puede acceder a la opción para transferir al estudiante a una sección diferente.
 - Se puede [visualizar el docente guía](/docs/docentes/#expediente_del_docente) **(3)** del estudiante si se cuenta con el permiso *DOCENTE_READ*.
   Adicionalmente, se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
@@ -179,7 +184,7 @@ en la parte inferior de esta pestaña se muestran enlaces **(4)** para visualiza
   <h5>Transferencia de estudiante</h5>
   <p>Al transferir al estudiante a mitad del periodo lectivo se debe ser cuidadoso con las calificaciones existentes, puesto que estas no serán eliminadas, 
     y puede con facilidad dar lugar al ingreso de calificaciones duplicadas para el estudiante, excediendo el porcentaje de acumulado definido para la materia.
-    Queda a criterio del docente efectuar los ajustes necesarios en estos casos.</p>
+    Queda a criterio del docente efectuar los ajustes necesarios en las <a href="/docs/evaluaciones/#calificar">calificaciones</a> en estos casos.</p>
 </div>
 
 ### Materias
@@ -221,7 +226,7 @@ Alternativamente, se puede exportar la información de este reporte como una hoj
 
 - Si únicamente interesan los bloques consolidados, se puede utilizar la opción *Exportar todo* **(1)**, lo cual exporta las notas bimestrales, semestrales y finales
   y los despliega como un boletín de calificaciones
-- Si se quiere visualizar el detalle de las evaluaciones, la opción **Exportar BLOQUE** **(2)** resulta más adecuada, puesto que exporta todas las calificaciones
+- Si se quiere visualizar el detalle de las evaluaciones, la opción *Exportar BLOQUE* **(2)** resulta más adecuada, puesto que exporta todas las calificaciones
   del bloque evaluativo que se seleccione, incluyendo los detalles de las evaluaciones y comentarios del docente
 
 ### Horario

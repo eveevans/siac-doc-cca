@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Catálogos
+prev_section: niveles
+next_section: configuracion
 permalink: /docs/catalogos/
 ---
 

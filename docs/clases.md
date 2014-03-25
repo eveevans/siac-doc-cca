@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Clases
+prev_section: parientes
+next_section: secciones
 permalink: /docs/clases/
 ---
 
@@ -123,7 +125,7 @@ En la parte inferior del formulario se incluye el listado de los estudiantes asi
 
 <div class="note">
   <h5>Importar estudiantes masivamente</h5>
-  <p>Se puede hacer uso de la opción <i>Importar</i> del <a href="/docs/periodos_lectivos/#importar">periodo lectivo</a>, lo cual, además de importar las 
+  <p>Se puede hacer uso de la opción <i>Importar</i> del <a href="/docs/periodo_lectivos/#importar">periodo lectivo</a>, lo cual, además de importar las 
     listas de estudiantes del sistema administrativo, procederá a crear nuevos usuarios con el código del estudiante como login y con el estudiante ya 
     asignado al usuario.</p>
 </div>

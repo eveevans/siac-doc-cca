@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Inicio de Sesión
+prev_section: home
+next_section: quickstart
 permalink: /docs/login/
 ---
 

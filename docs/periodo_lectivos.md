@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Períodos Lectivos
+prev_section: escalas
+next_section: tipo_notas
 permalink: /docs/periodo_lectivos/
 ---
 

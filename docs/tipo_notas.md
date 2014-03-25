@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Tipos de Notas
+prev_section: periodo_lectivos
+next_section: niveles
 permalink: /docs/tipo_notas/
 ---
 

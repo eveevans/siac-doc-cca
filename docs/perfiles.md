@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Perfiles
+prev_section: mensajes
+next_section: usuarios
 permalink: /docs/perfiles/
 ---
 

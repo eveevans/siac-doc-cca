@@ -1,6 +1,8 @@
 ---
 layout: docs
 title: Docentes
+prev_section: estudiantes
+next_section: parientes
 permalink: /docs/docentes/
 ---
 
@@ -52,7 +54,7 @@ Luego de enviar el formulario exitosamente, se podrá acceder al [expediente del
   <h5>Asignaturas del Docente</h5>
   <p>Agregarle asignaturas al docente es muy importante:</p>
   <ul>
-    <li>No se puede <a href="/docs/secciones#crear_seccion">asignar un docente guía a una sección</a> a menos que el docente imparta al menos
+    <li>No se puede <a href="/docs/secciones#crear_seccin">asignar un docente guía a una sección</a> a menos que el docente imparta al menos
       una asignatura para el nivel correspondiente a la clase.</li>
     <li>No se puede <a href="/docs/materias#crear_materia">asignar un docente a una materia</a> a menos que el docente imparta la asignatura
       correspondiente.</li>
