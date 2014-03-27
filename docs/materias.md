@@ -70,7 +70,7 @@ Existen diversas opciones de configuración para modificar el comportamiento de 
 
   - Si la calificación de una evaluación es inferior a este valor, entonces se resaltará en color rojo en todos los reportes del sistema.
   - Si el valor de la evaluación es menor al 100 %, entonces este valor es ponderado (por ejemplo, si la evaluación vale 10 puntos y el 
-    valor de la nota mínima es 60, entonces cualquier valor menor a 10).
+    valor de la nota mínima es 60, entonces cualquier valor menor a 6).
 
 - **Tipo materia**: Controla los [tipos de evaluaciones que se pueden crear](/docs/evaluaciones/#crear_evaluacin) para esta materia:
 
@@ -128,8 +128,8 @@ Las opciones de esta pantalla son las siguientes:
 
 - Opción para filtrar las pestañas de [estudiantes](#estudiantes) y [evaluaciones](#evaluaciones) por sección **(1)**. Esta opción se oculta si
   el docente no imparte la materia para más de una sección en el grado especificado.
-- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(2)** a toda la clase o sección. En el destinatario se podrá seleccionar si se quiere
-  enviar a los estudiantes y padres de familia, a los docentes o a ambos.
+- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(2)** a toda la clase o sección, si se cuenta con el permiso *CLASE_MESSAGE* o  *SECCION_MESSAGE*
+  respectivamente. En el destinatario se podrá seleccionar si se quiere enviar a los estudiantes y padres de familia, a los docentes o a ambos.
 - Opción para *Editar* los detalles de la materia **(3)**, si se cuenta con el permiso *MATERIA_MANAGE* y el periodo lectivo está abierto, 
   lo cual desplegará el formulario de actualización de la materia con los mismos campos del [formulario de creación](#crear_materia).
 - Opción para *Eliminar* la materia **(4)**, si se cuenta con el permiso *MATERIA_MANAGE*, el periodo lectivo está abierto y la materia no tiene
@@ -143,7 +143,7 @@ Información general de la sección (periodo lectivo, nivel, grado, docente guí
 
 - Se puede [visualizar la clase](/docs/clases/#detalles_de_la_clase) **(5)** si se cuenta con el permiso *CLASE_READ*.
 - Se puede [visualizar el docente](/docs/docentes/#expediente_del_docente) que imparte la clase **(6)** si se cuenta con el permiso *DOCENTE_READ*. Adicionalmente,
-  se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
+  se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) si se cuenta con el permiso *DOCENTE_MESSAGE*.
 - Si docentes diferentes imparten la asignatura en las diferentes secciones, entonces luego de los datos generales aparece una sección de *Docentes* en la 
   que se listan los docentes por cada sección.
 - Se puede [modificar la asignación de docentes](#asignar_docentes) **(7)** si se cuenta con el permiso *MATERIA_MANAGE*.
@@ -177,7 +177,7 @@ Esta pestaña muestra un listado de todos los estudiantes que reciben la materia
 
 - Se puede [visualizar un reporte de calificaciones](#calificaciones) **(1)** de la materia para todos los estudiantes.
 - Se puede [visualizar el expediente del estudiante](/docs/estudiantes/#expediente_del_estudiante) **(2)** si se cuenta con el permiso *ESTUDIANTE_READ*.
-- Para cada estudiante se cuenta con la opción de [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) **(3)**.
+- Se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) **(3)** al estudante si se cuenta con el permiso *ESTUDIANTE_MESSAGE*.
 - Se puede [visualizar el detalle de calificaciones específico para el estudiante](#detalle_de_calificaciones) **(4)**.
 
 #### Calificaciones

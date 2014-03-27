@@ -41,7 +41,7 @@ lo cual desplegará el siguiente formulario:
 - Se debe seleccionar un *Tipo* de evaluación. Los tipos permitidos dependen de la [configuración de la materia](/docs/materias/#configuraciones_de_la_materia),
   y pueden ser cualquiera de los siguientes:
   - *Acumulado*: Pueden ingresarse cualquier número de evaluaciones acumulativas. El campo de *Porcentaje* siempre es requerido para este tipo.
-  - *Examen*: Solo puede ingresarse un examen por bloque. El campo de *Porcentaje* requerido si el porcentaje del examen es variable.
+  - *Examen*: Solo puede ingresarse un examen por bloque. El campo de *Porcentaje* es requerido si el porcentaje del examen es variable.
   - *Reparación*: Solo se pueden ingresar cuando estén consolidados todos los bloques evaluativos.
 - Se debe especificar una *Fecha* de la evaluación, la cual debe ser única para la sección. Opcionalmente se puede especificar la *Hora*.
 - Se debe seleccionar el *Porcentaje* de la evaluación solo si es requerido, en caso contrario el valor será ignorado y se determinará automáticamente.

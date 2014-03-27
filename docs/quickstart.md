@@ -42,7 +42,8 @@ En la parte inferior se puede acceder a un registro de cambios en el que se pued
 
 Información académica del estudiante, la cual es diferente para cada periodo lectivo (periodo lectivo, nivel, grado, sección, docente guía, etc.).
 
-Al lado de la información del docente aparece un enlace **(1)** para [enviar un mensaje privado](/docs/mensajes/#crear_mensaje) al docente en cuestión.
+Al lado de la información del docente aparece un enlace **(1)** para [enviar un mensaje privado](/docs/mensajes/#crear_mensaje) al docente en cuestión,
+si la opción se encuentra habilitada en el sistema.
 
 Cabe mencionar que las pestañas de *Materias*, *Horarios*, *Médico* e *Incidencias* dependen de la información académica que se tenga seleccionada. Por esta razón,
 en la parte inferior de esta pestaña se muestran enlaces **(2)** para visualizar el expediente y calificaciones del estudiante en dicho periodo lectivo.
@@ -52,7 +53,8 @@ en la parte inferior de esta pestaña se muestran enlaces **(2)** para visualiza
 ![materias](/img/docs/estudiante_materias.png)
 
 En esta pestaña se muestra un listado de las materias que se encuentra cursando el estudiante, el docente que la imparte (con un enlace **(1)** para 
-[enviar un mensaje](/docs/mensajes/#crear_mensaje)), la calificación parcial y un enlace **(2)** para visualizar el detalle de la calificación:
+[enviar un mensaje](/docs/mensajes/#crear_mensaje) si la opción está habilitada en el sistema), la calificación parcial y un enlace **(2)** 
+para visualizar el detalle de la calificación:
 
 ![calificacion](/img/docs/estudiante_calificacion.png)
 

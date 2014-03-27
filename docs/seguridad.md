@@ -18,6 +18,7 @@ que le dan acceso global a ciertas funciones del sistema. A continuación se da 
 - *PERFIL_MANAGE*: Administrar perfiles de usuarios
 - *USUARIO_READ*: Listar usuarios
 - *USUARIO_CREATE*: Crear usuarios
+- *USUARIO_MESSAGE*: Enviar mensajes a usuarios
 - *USUARIO_MANAGE*: Administrar usuarios
 - *NIVEL_READ*: Listar niveles
 - *NIVEL_MESSAGE*: Envío de anuncions a niveles
@@ -31,24 +32,29 @@ que le dan acceso global a ciertas funciones del sistema. A continuación se da 
 - *TIPO_NOTA_MANAGE*: Administrar tipos de notas
 - *RECORRIDO_MANAGE*: Administrar recorridos
 - *DOCENTE_READ*: Listar docentes
+- *DOCENTE_MESSAGE*: Enviar mensajes a docentes
 - *DOCENTE_CREATE*: Crear docentes
 - *DOCENTE_UPDATE*: Actualizar docentes
 - *DOCENTE_MANAGE*: Administrar docentes
 - *ESTUDIO_MANAGE*: Administración información académica de docentes
 - *EXPERIENCIA_MANAGE*: Administración experiencia laboral de docentes
 - *ESTUDIANTE_READ*: Listar estudiantes
+- *ESTUDIANTE_MESSAGE*: Enviar mensajes a estudiantes
 - *ESTUDIANTE_CREATE*: Crear estudiantes
 - *ESTUDIANTE_UPDATE*: Actualizar estudiantes
 - *ESTUDIANTE_MEDICAR*: Actualizar expediente médico de estudiantes
 - *ESTUDIANTE_MANAGE*: Administrar estudianets
 - *PARIENTE_READ*: Listar responsables
+- *PARIENTE_MESSAGE*: Enviar mensajes a responsables
 - *PARIENTE_CREATE*: Crear responsables
 - *PARIENTE_UPDATE*: Actualizar responsables
 - *PARIENTE_MANAGE*: Administrar responsables
 - *CLASE_READ*: Listar clases
+- *CLASE_MESSAGE*: Enviar mensajes a clases
 - *CLASE_MANAGE*: Administrar clases
 - *ESTUDIANTE_CLASE_MANAGE*: Administrar asignación de estudiantes y clases
 - *SECCION_READ*: Listar secciones
+- *SECCION_MESSAGE*: Enviar mensajes a secciones
 - *SECCION_BOLETIN*: Exportar boletines de calificaciones
 - *SECCION_MANAGE*: Administrar secciones
 - *MATERIA_READ*: Listar materias
@@ -57,6 +63,8 @@ que le dan acceso global a ciertas funciones del sistema. A continuación se da 
 - *EVALUACION_READ*: Listar evaluaciones
 - *EVALUACION_MANAGE*: Administrar evaluaciones
 - *MENSAJE_READ*: Listar mensajes
+- *MENSAJE_MESSAGE*: Responder mensajes
+- *MENSAJE_ADJUNTO_CREATE*: Adjuntar archivos a los mensajes
 - *INCIDENCIA_READ*: Listar incidencias
 - *INCIDENCIA_MANAGE*: Administrar incidencias
 - *REGISTRO_MEDICO_READ*: Listar registros médicos

@@ -72,7 +72,7 @@ Luego de enviar el formulario exitosamente, se podrá acceder al [expediente del
 
 Las opciones de esta pantalla son las siguientes:
 
-- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este docente.
+- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este docente, si se cuenta con el permiso *DOCENTE_MESSAGE*.
 - Opción para *Editar* los detalles del docente **(2)**, si se cuenta con el permiso *DOCENTE_UPDATE*, lo cual desplegará el formulario de actualización 
   del docente con los mismos campos del [formulario de creación](#crear_docente).
 - Opción para *Eliminar* el docente **(3)**, si se cuenta con el permiso *DOCENTE_MANAGE* y el docente no tenga asignado ninguna sección o materia.

@@ -14,7 +14,7 @@ Al ingresar en la opción *Estudiantes* en el menú se desplegará un listado de
 Adicionalmente, el listado cuenta con las siguientes opciones:
 
 - Por defecto, se muestran los estudiantes del periodo lectivo actual. Si se quiere visualizar información histórica, se debe *Mostrar filtros* **(1)**
-  y seleccionar un periodo lectivo diferente.
+  y seleccionar un [periodo lectivo visible](/docs/periodo_lectivos/#crear_periodo_lectivo) diferente.
 - Si el número de estudiantes es demasiado extenso, se puede *Mostrar filtros* **(1)** y limitar los resultados por código, nombres y/o apellidos,
   periodo lectivo o clase.
 - Si se cuenta con el permiso *ESTUDIANTE_CREATE*, se desbloquea la opción *Nuevo* **(2)** para [ingresar un estudiante](#crear_estudiante) sin ninguna ayuda,
@@ -138,7 +138,7 @@ siempre que se respete la proporción de 3 de ancho por 4 de alto. En caso contr
 
 Las opciones de esta pantalla son las siguientes:
 
-- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este estudiante.
+- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este estudiante, si se cuenta con el permiso *ESTUDIANTE_MESSAGE*.
 - Opción para *Editar* los detalles del estudiante **(2)**, si se cuenta con el permiso *ESTUDIANTE_UPDATE* y el periodo lectivo está abierto, 
   lo cual desplegará el formulario de actualización de estudiante con la mayoría de los campos del [formulario de creación](#crear_estudiante).
 - Opción para *Eliminar* el estudiante **(3)**, si se cuenta con el permiso *ESTUDIANTE_MANAGE*, el periodo lectivo esté abierto y el estudiante
@@ -175,10 +175,11 @@ Información académica del estudiante, la cual es diferente para cada periodo l
 - Se puede [visualizar la sección](/docs/secciones/#detalles_de_la_seccin) **(2)** del estudiante si se cuenta con el permiso *SECCION_READ*. Adicionalmente, 
   si se cuenta con el permiso *ESTUDIANTE_CLASE_MANAGE*, se puede acceder a la opción para transferir al estudiante a una sección diferente.
 - Se puede [visualizar el docente guía](/docs/docentes/#expediente_del_docente) **(3)** del estudiante si se cuenta con el permiso *DOCENTE_READ*.
-  Adicionalmente, se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
+  Adicionalmente, se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) si se cuenta con el permiso *DOCENTE_MESSAGE*.
 
 Cabe mencionar que las pestañas de *Materias*, *Horarios*, *Médico* e *Incidencias* dependen de la información académica que se tenga seleccionada. Por esta razón,
-en la parte inferior de esta pestaña se muestran enlaces **(4)** para visualizar el expediente y calificaciones del estudiante en dicho periodo lectivo.
+en la parte inferior de esta pestaña se muestran enlaces **(4)** para visualizar el expediente y calificaciones del estudiante en dicho periodo lectivo,
+siempre y cuando el [periodo lectivo no esté oculto](/docs/periodo_lectivos/#crear_periodo_lectivo).
 
 <div class="note warning">
   <h5>Transferencia de estudiante</h5>
@@ -195,7 +196,7 @@ En esta pestaña se muestra un listado de las materias que cursa el estudiante p
 
 - Se puede [visualizar la materia](/docs/materias/#detalles_de_la_materia) **(1)** si se cuenta con el permiso *MATERIA_READ*.
 - Se puede [visualizar el docente](/docs/docentes/#expediente_del_docente) **(2)** que imparte la materia si se cuenta con el permiso *DOCENTE_READ*. Adicionalmente,
-  se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
+  se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) si se cuenta con el permiso *DOCENTE_MESSAGE*.
 - Se pueden visualizar todas las evaluaciones, exámenes y consolidados de la materia, con sus respectivas descripciones y observaciones, al darle clic a la opción
   *Detalle* **(3)**:
 

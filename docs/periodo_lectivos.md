@@ -29,6 +29,7 @@ Al seleccionar la opción *Nuevo periodo* se despliega el siguiente formulario:
   cerrado), entonces no se pueden efectuar ninguna modificación sobre la información académica de dicho periodo, lo cual incluye: 
   [expedientes de estudiantes](/docs/estudiantes/), [clases](/docs/clases/), [secciones](/docs/secciones/), [materias](/docs/materias/),
   [evaluaciones](/docs/evaluaciones/), [tipos de notas](/docs/tipo_notas/), incidencias y bitácora médica.
+- Si se checkea el campo *Oculto*, entonces el periodo lectivo se ocultará de los [expedientes de los estudiantes](/docs/estudiantes/#expediente_del_estudiante).
 
 En la parte inferior del formulario se muestran las opciones de configuración del periodo lectivo:
 

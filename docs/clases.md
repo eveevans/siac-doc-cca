@@ -54,8 +54,8 @@ para el periodo lectivo seleccionado.
 
 Las opciones de esta pantalla son las siguientes:
 
-- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** a toda la clase. En el destinatario se podrá seleccionar si se quiere
-  enviar a los estudiantes y padres de familia, a los docentes o a ambos.
+- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** a toda la clase, si se cuenta con el permiso *CLASE_MESSAGE*. En el destinatario 
+  se podrá seleccionar si se quiere enviar a los estudiantes y padres de familia, a los docentes o a ambos.
 - Opción para *Editar* los detalles de la clase **(2)**, si se cuenta con el permiso *CLASE_MANAGE* y el periodo lectivo está abierto, 
   lo cual desplegará el formulario de actualización de la clase con los mismos campos del [formulario de creación](#crear_clase).
 - Opción para *Eliminar* la clase **(3)**, si se cuenta con el permiso *CLASE_MANAGE*, el periodo lectivo está abierto y la clase no tiene
@@ -75,7 +75,7 @@ Esta pestaña muestra un listado de las materias que se cursan en la clase.
 
 - Se puede [crear una materia](/docs/materias/#crear_materia) **(1)** si se cuenta con el permiso *MATERIA_CREATE*.
 - Se puede [visualizar el docente](/docs/docentes/#expediente_del_docente) **(2)** que imparte la materia si se cuenta con el permiso *DOCENTE_READ*. Adicionalmente,
-  se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
+  se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) si se cuenta con el permiso *DOCENTE_MESSAGE*.
 - Se puede [visualizar la materia](/docs/materias/#detalles_de_la_materia) **(3)** si se cuenta con el permiso *MATERIA_READ*.
 
 ### Secciones
@@ -86,7 +86,7 @@ Esta pestaña muestra un listado de las secciones en las que se divide la clase.
 
 - Se puede [crear una sección](/docs/secciones/#crear_seccin) **(1)** si se cuenta con el permiso *SECCION_CREATE*.
 - Se puede [visualizar el docente guía](/docs/docentes/#expediente_del_docente) **(2)** de la sección si se cuenta con el permiso *DOCENTE_READ*. Adicionalmente,
-  se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
+  se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) si se cuenta con el permiso *DOCENTE_MESSAGE*.
 - Se puede [visualizar la sección](/docs/secciones/#detalles_de_la_seccin) **(3)** si se cuenta con el permiso *SECCION_READ*.
 
 ### Estudiantes
@@ -97,7 +97,7 @@ Esta pestaña muestra un listado de todos los estudiantes asignados a la clase.
 
 - Se puede [administrar la asignación de estudiantes a la clase](#asignar_estudiantes) **(1)** si se cuenta con el permiso *ESTUDIANTE_CLASE_MANAGE*.
 - Se puede [visualizar un reporte de calificaciones](#calificaciones) **(2)** consolidado para todos los estudiantes de la clase.
-- Para cada estudiante se cuenta con la opción de [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) **(3)**.
+- Se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) **(3)** al estudiante si se cuenta con el permiso *ESTUDIANTE_MESSAGE*.
 - Se puede [visualizar el expediente del estudiante](/docs/estudiantes/#expediente_del_estudiante) **(4)** si se cuenta con el permiso *ESTUDIANTE_READ*.
 
 #### Asignar Estudiantes

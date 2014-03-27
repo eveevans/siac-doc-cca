@@ -57,8 +57,8 @@ El docente que se designe como guía de la sección debe tener [asignada al meno
 
 Las opciones de esta pantalla son las siguientes:
 
-- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** a toda la sección. En el destinatario se podrá seleccionar si se quiere
-  enviar a los estudiantes y padres de familia, a los docentes o a ambos.
+- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** a toda la sección, si se cuenta con el permiso *SECCION_MESSAGE*. En el destinatario 
+  se podrá seleccionar si se quiere enviar a los estudiantes y padres de familia, a los docentes o a ambos.
 - Opción para *Editar* los detalles de la sección **(2)**, si se cuenta con el permiso *SECCION_MANAGE* y el periodo lectivo está abierto, 
   lo cual desplegará el formulario de actualización de la sección con los mismos campos del [formulario de creación](#crear_seccin).
 - Opción para *Eliminar* la sección **(3)**, si se cuenta con el permiso *SECCION_MANAGE*, el periodo lectivo está abierto y la sección no tiene
@@ -72,7 +72,7 @@ Información general de la sección (periodo lectivo, nivel, grado, docente guí
 
 - Se puede [visualizar la clase](/docs/clases/#detalles_de_la_clase) **(4)** si se cuenta con el permiso *CLASE_READ*.
 - Se puede [visualizar el docente guía](/docs/docentes/#expediente_del_docente) **(5)** si se cuenta con el permiso *DOCENTE_READ*. Adicionalmente,
-  se cuenta con la opción para [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje).
+  se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) si se cuenta con el permiso *DOCENTE_MESSAGE*.
 
 ### Materias
 
@@ -89,7 +89,7 @@ Esta pestaña muestra un listado de todos los estudiantes asignados a la secció
 - Se puede exportar el listado de estudiantes **(2)** a una hoja de cálculo de Excel con 2 hojas: una para registrar las asistencias y otroas para las notas.
 - Se pueden exportar los boletines de todos los estudiantes **(3)** en una hoja de cálculo de Excel si se cuenta con el permiso *SECCION_BOLETIN*.
 - Se puede [visualizar un reporte de calificaciones](/docs/clases/#calificaciones) **(4)** consolidado para todos los estudiantes de la sección.
-- Para cada estudiante se cuenta con la opción de [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) **(5)**.
+- Se puede [enviarle un mensaje privado](/docs/mensajes/#crear_mensaje) **(5)** al estudiante si se cuenta con el permiso *ESTUDIANTE_MESSAGE*.
 - Se puede [visualizar el expediente del estudiante](/docs/estudiantes/#expediente_del_estudiante) **(6)** si se cuenta con el permiso *ESTUDIANTE_READ*.
 
 ### Horario

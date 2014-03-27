@@ -41,7 +41,7 @@ se podrá acceder a los [detalles del pariente](#detalles_del_pariente).
 
 Las opciones de esta pantalla son las siguientes:
 
-- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este pariente.
+- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este pariente, si se cuenta con el permiso *PARIENTE_MESSAGE*.
 - Opción para *Editar* los detalles del pariente **(2)**, si se cuenta con el permiso *PARIENTE_UPDATE*, lo cual desplegará el formulario de actualización 
   del pariente con los mismos campos del [formulario de creación](#crear_pariente).
 - Opción para *Eliminar* el pariente **(3)**, si se cuenta con el permiso *PARIENTE_MANAGE* y el pariente no tenga asignado ningún estudiante como hijo o dependiente.

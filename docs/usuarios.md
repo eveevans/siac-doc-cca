@@ -63,7 +63,7 @@ nueva cuenta creada, en caso de que se haya especificado un email válido.
 
 Las opciones de esta pantalla son las siguientes:
 
-- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este usuario.
+- Opción para [enviar un mensaje](/docs/mensajes/#crear_mensaje) **(1)** privado a este usuario, si se cuenta con el permiso *USUARIO_MESSAGE*.
 - Opción para *Editar* detalles del usuario **(2)**, si se cuenta con el permiso *USUARIO_ADMIN*, lo cual desplegará el formulario de modificación
   de usuario con los mismos campos que la creación de usuario.
 - Opción para *Eliminar* el usuario **(3)**, si se cuenta con el permiso *USUARIO_ADMIN*.

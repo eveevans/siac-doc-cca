@@ -26,9 +26,12 @@ caso la columna de remitente es reemplazada por la de destinatario.
 Al acceder al mensaje se puede visualizar la fecha en la que fue enviado, el destinatario (puede ser una persona específica o un grupo de personas,
 como una sección, clase o nivel), remitente, asunto, archivos adjuntos (si existieran) y contenido del mensaje.
 
-Al lado del remitente se encuentra un enlace **(1)** para enviarle un mensaje al remitente. De igual manera, entre las opciones del mensaje se
-incluye la opción *Responder* **(1)**, lo cual abre el formulario de creación de mensaje de la misma forma que la opción anterior, pero citando
-el asunto y contenido del mensaje actual; por otra parte, la opción *Eliminar* remueve al mensaje de la bandeja de entrada (o salida) del usuario, aunque 
+Al lado del remitente se encuentra un enlace **(1)** para enviarle un mensaje al remitente, si se cuenta con el permiso *USUARIO_MESSAGE*.
+
+De igual manera, entre las opciones del mensaje se incluye la opción *Responder* **(1)**, si se cuenta con el permiso *MENSAJE_MESSAGE*, lo cual abre 
+el formulario de creación de mensaje de la misma forma que la opción anterior, pero citando el asunto y contenido del mensaje actual.
+
+Por último, la opción *Eliminar* remueve al mensaje de la bandeja de entrada (o salida) del usuario, aunque 
 *no elimina físicamente el mensaje de la base de datos del sistema* por razones de auditoría.
 
 ## Crear mensaje

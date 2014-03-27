@@ -15,7 +15,7 @@ En esta pantalla se permiten actualizar configuraciones globales para el sistema
 ## Perfil Estudiante, Docente y Pariente
 
 Si se utiliza esta opción, se bloqueará el campo de *Perfil* cuando se [ingrese un nuevo usuario](/docs/usuarios/#crear_usuario)
-desde la pestaña de *Usuarios* del objeto correspondiente.
+desde la pestaña de *Usuarios* del [objeto correspondiente](/docs/seguridad/#objetos).
 
 Adicionalmente, si no se especifica un perfil de estudiante por defecto no se podrán crear usuarios en masa al
 [importar los listados en masa](/docs/periodo_lectivos/#importar).
@@ -40,12 +40,12 @@ Para ilustrar este comportamiento, considérese un escenario con las siguientes 
 
 Si la opción está desactivada, los consolidados superiores se calcularán de la siguiente manera:
 
-- *PRIMER SEMESTRE* = *(1B + 2B)/2* = *(90 + 91)/2* = *90.5* = **91**.
-- *SEGUNDO SEMESTRE* = *(3B + 4B)/2* = *(91 + 92)/2* = *91.5* = **92**.
+- *PRIMER SEMESTRE* = *(1B + 2B)/2* = *(90 + 91)/2* = *90.5* ≈ **91**.
+- *SEGUNDO SEMESTRE* = *(3B + 4B)/2* = *(91 + 92)/2* = *91.5* ≈ **92**.
 - *FINAL* = *(1B + 2B + 3B + 4B)/4* = *(90 + 91 + 91 + 92)/4* = **91**.
 
 En cambio, si la opción está habilitada, el cálculo sería de la siguiente manera:
 
-- *PRIMER SEMESTRE* = *(1B + 2B)/2* = *(90 + 91)/2* = *90.5* = **91**.
-- *SEGUNDO SEMESTRE* = *(3B + 4B)/2* = *(91 + 92)/2* = *91.5* = **92**.
-- *FINAL* = *(1S + 2S)/2* = *(91 + 92)/2* = *91.5* = **92**.
+- *PRIMER SEMESTRE* = *(1B + 2B)/2* = *(90 + 91)/2* = *90.5* ≈ **91**.
+- *SEGUNDO SEMESTRE* = *(3B + 4B)/2* = *(91 + 92)/2* = *91.5* ≈ **92**.
+- *FINAL* = *(1S + 2S)/2* = *(91 + 92)/2* = *91.5* ≈ **92**.
